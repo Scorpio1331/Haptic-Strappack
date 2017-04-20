@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v23</xs:documentation>
-    <xs:documentation>20/04/2017 03:50:29</xs:documentation>
+    <xs:documentation>20/04/2017 23:01:32</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -16719,9 +16719,12 @@
             <xs:enumeration value="@id/btnPlay" />
             <xs:enumeration value="@id/btnStop" />
             <xs:enumeration value="@id/progbarTime" />
+            <xs:enumeration value="@id/skbrVolume" />
             <xs:enumeration value="@id/txtvwBPM" />
             <xs:enumeration value="@id/txtvwError" />
-            <xs:enumeration value="@id/txtvwProg" />
+            <xs:enumeration value="@id/txtvwSongName" />
+            <xs:enumeration value="@id/txtvwTime" />
+            <xs:enumeration value="@id/txtvwVol" />
             <xs:enumeration value="@android:id/accessibilityActionContextClick" />
             <xs:enumeration value="@android:id/accessibilityActionScrollDown" />
             <xs:enumeration value="@android:id/accessibilityActionScrollLeft" />
