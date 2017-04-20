@@ -40,5 +40,9 @@ C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappac
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\bin\Debug\ManagedBass.dll
+C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\bin\Debug\ManagedBass.Fx.dll
+C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\bin\Debug\ManagedBass.xml
+C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\bin\Debug\ManagedBass.Fx.xml
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\Haptic Strappack App.dll.mdb
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\bin\Debug\Haptic Strappack App.dll.mdb

@@ -100,6 +100,8 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "Haptic Strappack App.dll" comes first in this list. */
 		"Haptic Strappack App.dll",
 		"Bass.Net.Android.dll",
+		"ManagedBass.dll",
+		"ManagedBass.Fx.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};
