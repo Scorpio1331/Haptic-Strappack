@@ -1,0 +1,4 @@
+Haptic_Strappack_App.MainActivity, Haptic Strappack App;md542db2327ba393ca0b405bbed15b266ff.MainActivity
+Haptic_Strappack_App.MainActivity, Haptic Strappack App, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md542db2327ba393ca0b405bbed15b266ff.MainActivity
+Haptic_Strappack_App.MainActivity;md542db2327ba393ca0b405bbed15b266ff.MainActivity
+haptic_strappack_app.MainActivity;md542db2327ba393ca0b405bbed15b266ff.MainActivity
