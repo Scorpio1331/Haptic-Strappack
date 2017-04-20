@@ -3,6 +3,12 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <TextView
+        android:text="Song Name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtvwSongName" />
     <Button
         android:text="Play"
         android:layout_width="match_parent"
@@ -13,17 +19,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnStop" />
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/skbrVolume" />
+    <TextView
+        android:text="Volume: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtvwVol" />
     <ProgressBar
-        style="?android:attr/progressBarStyleLarge"
+        style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/progbarTime" />
     <TextView
-        android:text="Prog"
-        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Time: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/txtvwProg" />
+        android:id="@+id/txtvwTime" />
     <TextView
         android:text="BPM: "
         android:textAppearance="?android:attr/textAppearanceMedium"
