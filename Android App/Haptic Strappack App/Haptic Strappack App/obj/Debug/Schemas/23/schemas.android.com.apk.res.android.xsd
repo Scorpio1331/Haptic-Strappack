@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v23</xs:documentation>
-    <xs:documentation>20/04/2017 23:01:32</xs:documentation>
+    <xs:documentation>24/04/2017 17:51:59</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -3607,6 +3607,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
+            <xs:enumeration value="@string/refreshing" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -3648,6 +3649,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
+            <xs:enumeration value="@string/refreshing" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -4255,6 +4257,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
+            <xs:enumeration value="@string/refreshing" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -4782,6 +4785,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
+            <xs:enumeration value="@string/refreshing" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -5859,6 +5863,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
+            <xs:enumeration value="@string/refreshing" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -6150,6 +6155,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
+            <xs:enumeration value="@string/refreshing" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -10851,6 +10857,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
+            <xs:enumeration value="@string/refreshing" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -10892,6 +10899,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
+            <xs:enumeration value="@string/refreshing" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -11460,6 +11468,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
+            <xs:enumeration value="@string/refreshing" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -11501,6 +11510,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
+            <xs:enumeration value="@string/refreshing" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -11542,6 +11552,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
+            <xs:enumeration value="@string/refreshing" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -16579,6 +16590,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
+            <xs:enumeration value="@string/refreshing" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -16716,15 +16728,36 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@+id/" />
             <xs:enumeration value="@+id/checkBox1" />
+            <xs:enumeration value="@id/btnMediaPlayer" />
             <xs:enumeration value="@id/btnPlay" />
+            <xs:enumeration value="@id/btnSelectDevice" />
+            <xs:enumeration value="@id/btnSelectLibrary" />
+            <xs:enumeration value="@id/btnSelectSong" />
             <xs:enumeration value="@id/btnStop" />
+            <xs:enumeration value="@id/lstvwDeviceList" />
+            <xs:enumeration value="@id/prgbrProgress" />
             <xs:enumeration value="@id/progbarTime" />
             <xs:enumeration value="@id/skbrVolume" />
             <xs:enumeration value="@id/txtvwBPM" />
             <xs:enumeration value="@id/txtvwError" />
+            <xs:enumeration value="@id/txtvwFolderSelected" />
+            <xs:enumeration value="@id/txtvwPorts" />
+            <xs:enumeration value="@id/txtvwSelectedDevice" />
             <xs:enumeration value="@id/txtvwSongName" />
+            <xs:enumeration value="@id/txtvwSongSelected" />
             <xs:enumeration value="@id/txtvwTime" />
+            <xs:enumeration value="@id/txtvwTitleDevice" />
+            <xs:enumeration value="@id/txtvwTitleMediaPlayer" />
+            <xs:enumeration value="@id/txtvwTitleProgBar" />
+            <xs:enumeration value="@id/txtvwTitleSongs" />
+            <xs:enumeration value="@id/txtvwTitleSongSelection" />
             <xs:enumeration value="@id/txtvwVol" />
+            <xs:enumeration value="@id/viewDevice" />
+            <xs:enumeration value="@id/viewLibrary" />
+            <xs:enumeration value="@id/viewMediaPlayer" />
+            <xs:enumeration value="@id/viewSeparator" />
+            <xs:enumeration value="@id/viewSeperator" />
+            <xs:enumeration value="@id/viewSongSelecter" />
             <xs:enumeration value="@android:id/accessibilityActionContextClick" />
             <xs:enumeration value="@android:id/accessibilityActionScrollDown" />
             <xs:enumeration value="@android:id/accessibilityActionScrollLeft" />
@@ -17053,6 +17086,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
+            <xs:enumeration value="@string/refreshing" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -18270,6 +18304,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
+            <xs:enumeration value="@string/refreshing" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -20729,6 +20764,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
+            <xs:enumeration value="@string/refreshing" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -20927,6 +20963,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
+            <xs:enumeration value="@string/refreshing" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -21182,6 +21219,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
+            <xs:enumeration value="@string/refreshing" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -21875,6 +21913,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
+            <xs:enumeration value="@string/refreshing" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -23777,6 +23816,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
+            <xs:enumeration value="@string/refreshing" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -25699,6 +25739,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
+            <xs:enumeration value="@string/refreshing" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -26680,6 +26721,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
+            <xs:enumeration value="@string/refreshing" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -30078,6 +30120,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
+            <xs:enumeration value="@string/refreshing" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -31342,6 +31385,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
+            <xs:enumeration value="@string/refreshing" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -32515,6 +32559,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
+            <xs:enumeration value="@string/refreshing" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -34171,6 +34216,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
+            <xs:enumeration value="@string/refreshing" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -34212,6 +34258,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
+            <xs:enumeration value="@string/refreshing" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -37310,6 +37357,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
+            <xs:enumeration value="@string/refreshing" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -37351,6 +37399,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
+            <xs:enumeration value="@string/refreshing" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -39482,6 +39531,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
+            <xs:enumeration value="@string/refreshing" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -39626,6 +39676,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
+            <xs:enumeration value="@string/refreshing" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
@@ -40752,6 +40803,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Hello" />
+            <xs:enumeration value="@string/refreshing" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />

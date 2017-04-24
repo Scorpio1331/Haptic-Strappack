@@ -2,20 +2,28 @@ C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappac
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\bin\Debug\Haptic Strappack App.pdb
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\bin\Debug\Haptic_Strappack_App.Haptic_Strappack_App.apk
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\bin\Debug\Haptic_Strappack_App.Haptic_Strappack_App-Signed.apk
+C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\bin\Debug\Android.UsbSerial.dll
+C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\bin\Debug\Android.UsbSerial.pdb
+C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\bin\Debug\Android.UsbSerial.dll.mdb
+C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\bin\Debug\ManagedBass.xml
+C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\bin\Debug\ManagedBass.Fx.xml
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\Haptic Strappack App.dll
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\Haptic Strappack App.pdb
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\android\bin\Haptic_Strappack_App.Haptic_Strappack_App.apk
-C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\res\layout\main.xml
+C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\res\layout\mainmenu.xml
+C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\res\layout\deviceselection.xml
+C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\res\layout\mediaplayer.xml
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\res\values\strings.xml
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\res\drawable\icon.png
+C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\res\xml\device_filter.xml
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\R.cs.flag
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\uploadflags.txt
-C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\bin\Debug\Bass.Net.Android.xml
-C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\Haptic Strappack App.csprojResolveAssemblyReference.cache
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\bin\Debug\Haptic Strappack App.dll.mdb
+C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\Haptic Strappack App.csprojResolveAssemblyReference.cache
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\bin\Debug\Java.Interop.dll.mdb
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\bin\Debug\Microsoft.CSharp.dll.mdb
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\bin\Debug\Mono.Android.dll.mdb
+C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\bin\Debug\Mono.Android.Export.dll.mdb
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\bin\Debug\Mono.CSharp.dll.mdb
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\bin\Debug\mscorlib.dll.mdb
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\bin\Debug\System.ComponentModel.Composition.dll.mdb
@@ -26,10 +34,12 @@ C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappac
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\bin\Debug\System.ServiceModel.Internals.dll.mdb
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\bin\Debug\System.Xml.dll.mdb
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\bin\Debug\System.Xml.Linq.dll.mdb
+C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\android\assets\Android.UsbSerial.dll.mdb
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\android\assets\Haptic Strappack App.dll.mdb
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\android\assets\Java.Interop.dll.mdb
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\android\assets\Microsoft.CSharp.dll.mdb
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\android\assets\Mono.Android.Export.dll.mdb
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\android\assets\Mono.CSharp.dll.mdb
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\android\assets\mscorlib.dll.mdb
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
@@ -40,9 +50,5 @@ C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappac
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
-C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\bin\Debug\ManagedBass.dll
-C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\bin\Debug\ManagedBass.Fx.dll
-C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\bin\Debug\ManagedBass.xml
-C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\bin\Debug\ManagedBass.Fx.xml
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\Haptic Strappack App.dll.mdb
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\bin\Debug\Haptic Strappack App.dll.mdb
