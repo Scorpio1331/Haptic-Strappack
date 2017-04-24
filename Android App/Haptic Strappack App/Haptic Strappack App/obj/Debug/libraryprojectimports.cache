@@ -2,13 +2,13 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\__library_projects__\Bass.Net.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\__library_projects__\Android.UsbSerial\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
-    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Bass.Net.Android\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Android.UsbSerial\library_project_imports\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\__library_projects__\Bass.Net.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\__library_projects__\Android.UsbSerial.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

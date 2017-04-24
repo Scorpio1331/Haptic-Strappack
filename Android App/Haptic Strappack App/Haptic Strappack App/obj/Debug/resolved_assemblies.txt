@@ -1,10 +1,11 @@
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\android\assets\Haptic Strappack App.dll
-C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\android\assets\Bass.Net.Android.dll
+C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\android\assets\Android.UsbSerial.dll
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\android\assets\ManagedBass.dll
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\android\assets\ManagedBass.Fx.dll
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\android\assets\Java.Interop.dll
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\android\assets\Microsoft.CSharp.dll
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\android\assets\Mono.Android.dll
+C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\android\assets\Mono.Android.Export.dll
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\android\assets\mscorlib.dll
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\android\assets\System.Core.dll
 C:\Users\Butte\Documents\GitHub\Haptic-strappack-app\Android App\Haptic Strappack App\Haptic Strappack App\obj\Debug\android\assets\System.dll

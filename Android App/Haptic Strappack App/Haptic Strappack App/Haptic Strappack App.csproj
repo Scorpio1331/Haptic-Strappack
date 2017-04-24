@@ -27,9 +27,17 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
+    <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
     <AndroidLinkMode>None</AndroidLinkMode>
-    <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
+    <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
+    <BundleAssemblies>False</BundleAssemblies>
+    <AndroidCreatePackagePerAbi>False</AndroidCreatePackagePerAbi>
+    <Debugger>.Net (Xamarin)</Debugger>
+    <AotAssemblies>False</AotAssemblies>
+    <EnableLLVM>False</EnableLLVM>
+    <AndroidEnableMultiDex>False</AndroidEnableMultiDex>
+    <EnableProguard>False</EnableProguard>
+    <AndroidSupportedAbis>armeabi;armeabi-v7a;x86</AndroidSupportedAbis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>PdbOnly</DebugType>
@@ -44,18 +52,20 @@
     <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Bass.Net.Android, Version=2.4.12.5, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\Bass.Net.Android.dll</HintPath>
+    <Reference Include="Android.UsbSerial">
+      <HintPath>..\..\..\..\..\..\Downloads\UsbSerialForAndroid\bin\Debug\Android.UsbSerial.dll</HintPath>
     </Reference>
     <Reference Include="ManagedBass, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ManagedBass.1.0.2\lib\portable-MonoAndroid+uap\ManagedBass.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ManagedBass.dll</HintPath>
     </Reference>
     <Reference Include="ManagedBass.Fx, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ManagedBass.Fx.1.0.2\lib\portable-net45+MonoAndroid+uap\ManagedBass.Fx.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ManagedBass.Fx.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Mono.Android" />
+    <Reference Include="Mono.Android.Export" />
     <Reference Include="mscorlib" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -63,7 +73,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MainActivity.cs" />
+    <Compile Include="DeviceSelection.cs" />
+    <Compile Include="MainMenu.cs" />
+    <Compile Include="MediaPlayer.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -74,13 +86,30 @@
     <AndroidNativeLibrary Include="lib\x86\libbass_fx.so">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </AndroidNativeLibrary>
-    <None Include="GettingStarted.Xamarin" />
+    <AndroidNativeLibrary Include="lib\armeabi-v7a\libbass.so">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </AndroidNativeLibrary>
+    <AndroidNativeLibrary Include="lib\armeabi-v7a\libbass_fx.so">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </AndroidNativeLibrary>
+    <AndroidNativeLibrary Include="lib\armeabi\libbass.so">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </AndroidNativeLibrary>
+    <AndroidNativeLibrary Include="lib\armeabi\libbass_fx.so">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </AndroidNativeLibrary>
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
+    <AndroidResource Include="Resources\layout\mainMenu.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\deviceSelection.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\Main.axml">
+    <AndroidResource Include="Resources\layout\mediaPlayer.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -92,6 +121,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\AndroidManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\xml\device_filter.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
