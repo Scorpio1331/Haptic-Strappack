@@ -11,44 +11,54 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int icon=0x7f020000;
+        public static final int file=0x7f020000;
+        public static final int folder=0x7f020001;
+        public static final int icon=0x7f020002;
     }
     public static final class id {
-        public static final int btnMediaPlayer=0x7f060012;
-        public static final int btnPlay=0x7f060015;
-        public static final int btnSelectDevice=0x7f060007;
-        public static final int btnSelectLibrary=0x7f06000b;
-        public static final int btnSelectSong=0x7f06000f;
-        public static final int btnStop=0x7f060016;
+        public static final int btnMediaPlayer=0x7f060018;
+        public static final int btnNextSong=0x7f060022;
+        public static final int btnPlay=0x7f06001a;
+        public static final int btnPrevSong=0x7f060023;
+        public static final int btnSelectDevice=0x7f060009;
+        public static final int btnSelectLibrary=0x7f06000f;
+        public static final int btnSelectSong=0x7f060014;
+        public static final int btnStop=0x7f06001b;
+        public static final int frmlytContainer=0x7f06000b;
+        public static final int imgFileImage=0x7f060004;
+        public static final int lnrlytLibrarySelection=0x7f06000c;
+        public static final int lnrlytMediaPlayer=0x7f060015;
+        public static final int lnrlytSongSelection=0x7f060010;
         public static final int lstvwDeviceList=0x7f060003;
         public static final int prgbrProgress=0x7f060001;
-        public static final int progbarTime=0x7f060019;
-        public static final int skbrVolume=0x7f060017;
-        public static final int txtvwBPM=0x7f06001b;
-        public static final int txtvwError=0x7f06001c;
-        public static final int txtvwFolderSelected=0x7f06000a;
-        public static final int txtvwPorts=0x7f06001d;
-        public static final int txtvwSelectedDevice=0x7f060006;
-        public static final int txtvwSongName=0x7f060014;
-        public static final int txtvwSongSelected=0x7f06000e;
-        public static final int txtvwTime=0x7f06001a;
-        public static final int txtvwTitleDevice=0x7f060005;
-        public static final int txtvwTitleMediaPlayer=0x7f060011;
+        public static final int progbarTime=0x7f06001e;
+        public static final int skbrVolume=0x7f06001c;
+        public static final int txtvwBPM=0x7f060020;
+        public static final int txtvwError=0x7f060021;
+        public static final int txtvwFileName=0x7f060005;
+        public static final int txtvwFolderSelected=0x7f06000e;
+        public static final int txtvwPorts=0x7f060024;
+        public static final int txtvwSelectedDevice=0x7f060008;
+        public static final int txtvwSongName=0x7f060019;
+        public static final int txtvwSongSelected=0x7f060013;
+        public static final int txtvwTime=0x7f06001f;
+        public static final int txtvwTitleDevice=0x7f060007;
+        public static final int txtvwTitleMediaPlayer=0x7f060017;
         public static final int txtvwTitleProgBar=0x7f060000;
-        public static final int txtvwTitleSongSelection=0x7f06000d;
-        public static final int txtvwTitleSongs=0x7f060009;
-        public static final int txtvwVol=0x7f060018;
-        public static final int viewDevice=0x7f060004;
-        public static final int viewLibrary=0x7f060008;
-        public static final int viewMediaPlayer=0x7f060010;
+        public static final int txtvwTitleSongSelection=0x7f060012;
+        public static final int txtvwTitleSongs=0x7f06000d;
+        public static final int txtvwVol=0x7f06001d;
+        public static final int viewDevice=0x7f060006;
+        public static final int viewMediaPlayer=0x7f060016;
         public static final int viewSeparator=0x7f060002;
-        public static final int viewSeperator=0x7f060013;
-        public static final int viewSongSelecter=0x7f06000c;
+        public static final int viewSeperator=0x7f06000a;
+        public static final int viewSongSelecter=0x7f060011;
     }
     public static final class layout {
         public static final int deviceselection=0x7f030000;
-        public static final int mainmenu=0x7f030001;
-        public static final int mediaplayer=0x7f030002;
+        public static final int folderselection=0x7f030001;
+        public static final int mainmenu=0x7f030002;
+        public static final int mediaplayer=0x7f030003;
     }
     public static final class string {
         public static final int ApplicationName=0x7f050001;

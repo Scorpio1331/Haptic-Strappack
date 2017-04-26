@@ -52,8 +52,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/txtvwError"
-        android:visibility="gone" />
-    <TextView
+        android:visibility="gone" />    
+    <Button
+        android:text="Next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnNextSong" />
+    <Button
+        android:text="Previous"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnPrevSong" />
+  <TextView
         android:text="Medium Text"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"

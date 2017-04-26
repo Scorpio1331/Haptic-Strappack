@@ -10,16 +10,16 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-feature android:name="android.hardware.usb.host" />
   <application android:label="Haptic Strappack App" android:icon="@drawable/icon" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
-    <activity android:label="Select Device" android:name="md542db2327ba393ca0b405bbed15b266ff.DeviceSelection">
+    <activity android:label="Select Device" android:name="md55089385ee9c2ed0adff1335e2144cdd5.DeviceSelection">
       <meta-data android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" android:resource="@xml/device_filter" />
     </activity>
-    <activity android:icon="@drawable/icon" android:label="Haptic Strappack App Menu" android:name="md542db2327ba393ca0b405bbed15b266ff.MainMenu">
+    <activity android:icon="@drawable/icon" android:label="Haptic Strappack App Menu" android:name="md55089385ee9c2ed0adff1335e2144cdd5.MainMenu">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:label="Media Player" android:name="md542db2327ba393ca0b405bbed15b266ff.MediaPlayer" />
+    <activity android:label="Media Player" android:name="md55089385ee9c2ed0adff1335e2144cdd5.MediaPlayer" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="Haptic_Strappack_App.Haptic_Strappack_App.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">

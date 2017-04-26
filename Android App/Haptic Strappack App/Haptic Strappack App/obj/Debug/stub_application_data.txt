@@ -1,2 +1,0 @@
-android.app.Application
-Haptic_Strappack_App.Haptic_Strappack_App

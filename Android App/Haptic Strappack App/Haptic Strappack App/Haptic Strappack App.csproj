@@ -9,7 +9,7 @@
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Haptic_Strappack_App</RootNamespace>
+    <RootNamespace>haptic_strappack_app</RootNamespace>
     <AssemblyName>Haptic Strappack App</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidApplication>True</AndroidApplication>
@@ -50,18 +50,24 @@
     <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
     <AndroidLinkMode>SdkOnly</AndroidLinkMode>
     <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
+    <BundleAssemblies>False</BundleAssemblies>
+    <AndroidCreatePackagePerAbi>False</AndroidCreatePackagePerAbi>
+    <AndroidSupportedAbis>armeabi;armeabi-v7a;x86</AndroidSupportedAbis>
+    <Debugger>.Net (Xamarin)</Debugger>
+    <AotAssemblies>False</AotAssemblies>
+    <EnableLLVM>False</EnableLLVM>
+    <AndroidEnableMultiDex>False</AndroidEnableMultiDex>
+    <EnableProguard>False</EnableProguard>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Android.UsbSerial">
       <HintPath>..\..\..\..\..\..\Downloads\UsbSerialForAndroid\bin\Debug\Android.UsbSerial.dll</HintPath>
     </Reference>
     <Reference Include="ManagedBass, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\ManagedBass.dll</HintPath>
+      <HintPath>..\packages\ManagedBass.1.0.2\lib\portable-MonoAndroid+uap\ManagedBass.dll</HintPath>
     </Reference>
     <Reference Include="ManagedBass.Fx, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\ManagedBass.Fx.dll</HintPath>
+      <HintPath>..\packages\ManagedBass.Fx.1.0.2\lib\portable-net45+MonoAndroid+uap\ManagedBass.Fx.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Mono.Android" />
@@ -74,6 +80,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DeviceSelection.cs" />
+    <Compile Include="FileListAdapter.cs" />
+    <Compile Include="FolderListViewHolder.cs" />
+    <Compile Include="FolderSelectionFragment.cs" />
     <Compile Include="MainMenu.cs" />
     <Compile Include="MediaPlayer.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
@@ -107,6 +116,9 @@
     <AndroidResource Include="Resources\layout\deviceSelection.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\layout\folderSelection.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\mediaPlayer.axml">
@@ -124,6 +136,12 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\xml\device_filter.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\folder.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
