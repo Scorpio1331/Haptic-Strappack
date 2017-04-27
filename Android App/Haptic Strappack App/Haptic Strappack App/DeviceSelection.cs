@@ -15,7 +15,7 @@ using Hoho.Android.UsbSerial.Util;
 
 [assembly: UsesFeature("android.hardware.usb.host")]
     
-namespace Haptic_Strappack_App
+namespace haptic_strappack_app
 {
     [Activity(Label = "Select Device")]
     [MetaData(UsbManager.ActionUsbDeviceAttached, Resource = "@xml/device_filter")]
@@ -109,7 +109,7 @@ namespace Haptic_Strappack_App
             {
                 // start the SerialConsoleActivity for this device
                 var newIntent = new Intent(this, typeof(MainMenu));
-                newIntent.PutExtra(MainMenu.EXTRA_TAG, new UsbSerialPortInfo(selectedPort));
+                newIntent.PutExtra(MediaPlayer.PortTag, new UsbSerialPortInfo(selectedPort));
                 StartActivity(newIntent);
             }
         }
@@ -171,9 +171,7 @@ namespace Haptic_Strappack_App
                 var driver = port.GetDriver();
                 var device = driver.GetDevice();
 
-                var title = string.Format("Vendor {0} Product {1}",
-                    HexDump.ToHexString((short)device.VendorId),
-                    HexDump.ToHexString((short)device.ProductId));
+                var title = string.Format("Device: ", device.ProductName);
                 row.FindViewById<TextView>(global::Android.Resource.Id.Text1).Text = title;
 
                 var subtitle = device.Class.SimpleName;
